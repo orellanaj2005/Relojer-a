@@ -193,7 +193,7 @@ op3=0
 
 
 print(pyfiglet.figlet_format("Relojeria"))
-
+os.system("pause")
 while True:
     os.system("cls")
     print("Último folio: ",get_folio(folio))
